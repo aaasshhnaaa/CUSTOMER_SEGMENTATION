@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load Model
-model = pickle.load(open("kmeans_model.pkl", "rb"))
+model = pickle.load(open("kmeans_model(2).pkl", "rb"))
 
 # Customer Labels
 cluster_names = {
